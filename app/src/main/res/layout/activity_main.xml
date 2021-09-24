@@ -71,6 +71,10 @@
             android:textColor="#795548"
             android:textStyle="normal|bold|italic"
             tools:ignore="TextContrastCheck" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
