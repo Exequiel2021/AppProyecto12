@@ -4,40 +4,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E2D3FDB6"
+    android:background="#758352B5"
     android:visibility="visible"
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="402dp"
-        android:layout_height="591dp"
+        android:id="@+id/linearLayout"
+        android:layout_width="404dp"
+        android:layout_height="630dp"
         android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
 
         <ImageView
             android:id="@+id/imagprin"
-            android:layout_width="416dp"
-            android:layout_height="280dp"
-            android:layout_gravity="center|center_vertical"
-            android:contentDescription="@string/imagprin"
+            android:layout_width="wrap_content"
+            android:layout_height="293dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="32dp"
+            android:contentDescription="@string/principalvista"
             android:scrollbarAlwaysDrawHorizontalTrack="true"
             android:visibility="visible"
             app:srcCompat="@drawable/Principal"
             tools:ignore="ImageContrastCheck" />
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="32dp" />
-
         <Button
             android:id="@+id/btncap"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#8BC34A"
-            android:backgroundTintMode="add"
+            android:backgroundTint="#7C72D818"
+            android:foregroundTint="#A58686"
             android:text="@string/btncap"
             android:textColor="#795548"
             android:textSize="14sp"
@@ -52,7 +54,7 @@
             android:id="@+id/btndes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#8BC34A"
+            android:backgroundTint="#7C72D818"
             android:text="@string/btndes"
             android:textColor="#795548"
             android:textStyle="normal|bold|italic"
@@ -66,15 +68,12 @@
             android:id="@+id/btnsub"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#8BC34A"
+            android:backgroundTint="#7C72D818"
             android:text="@string/btnsub"
             android:textColor="#795548"
             android:textStyle="normal|bold|italic"
             tools:ignore="TextContrastCheck" />
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

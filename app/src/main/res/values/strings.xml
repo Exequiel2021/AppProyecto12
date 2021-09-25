@@ -4,10 +4,17 @@
     <string name="btncap">Capturar Lugar</string>
     <string name="btndes">Descubrir Lugares</string>
     <string name="btnsub">Subir Imagen</string>
-    <string name="imaglogin">imaglogin</string>
-    <string name="imagprin">imagprin</string>
-    <string name="txtregistro">Registrate</string>
-    <string name="txtusu">Nombre De Usuario</string>
-    <string name="nombre_de_usuario">Nombre De Usuario</string>
+    <string name="campousuario">Nombre de usuario</string>
+    <string name="principallog">imagen login</string>
+    <string name="correo_electronico">Correo Electronico</string>
+    <string name="usuario">Usuario</string>
+    <string name="contras">Contraseña</string>
+    <string name="iniciar_sesion">Iniciar Sesion</string>
+    <string name="acceder">Acceder</string>
+    <string name="registrarme">Registrarme</string>
+    <string name="recordarme">Recordarme</string>
+    <string name="principalvista">principalvista</string>
+    <string name="imagtitulo">imagtitulo</string>
+    <string name="tituloini">Naturist</string>
 
 </resources>
