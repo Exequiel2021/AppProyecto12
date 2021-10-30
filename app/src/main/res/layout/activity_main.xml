@@ -1,79 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#758352B5"
-    android:visibility="visible"
-    tools:context=".MainActivity">
+    android:background="#7559347E">
 
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="404dp"
-        android:layout_height="630dp"
-        android:gravity="center"
-        android:orientation="vertical"
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="231dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:foregroundGravity="center"
+        android:text="@string/tituloini"
+        android:textAlignment="center"
+        android:textColor="#292626"
+        android:textSize="80sp"
+        android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintVertical_bias="0.541" />
 
-        <ImageView
-            android:id="@+id/imagprin"
-            android:layout_width="wrap_content"
-            android:layout_height="293dp"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="60dp"
-            android:layout_marginEnd="32dp"
-            android:contentDescription="@string/principalvista"
-            android:scrollbarAlwaysDrawHorizontalTrack="true"
-            android:visibility="visible"
-            app:srcCompat="@drawable/Principal"
-            tools:ignore="ImageContrastCheck" />
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="49dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="177dp"
+        android:layout_marginBottom="134dp"
+        android:indeterminateTint="#B37744"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
-        <Button
-            android:id="@+id/btncap"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:backgroundTint="#7C72D818"
-            android:foregroundTint="#A58686"
-            android:text="@string/btncap"
-            android:textColor="#795548"
-            android:textSize="14sp"
-            android:textStyle="normal|bold|italic"
-            tools:ignore="TextContrastCheck" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="25dp" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
 
-        <Button
-            android:id="@+id/btndes"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:backgroundTint="#7C72D818"
-            android:text="@string/btndes"
-            android:textColor="#795548"
-            android:textStyle="normal|bold|italic"
-            tools:ignore="TextContrastCheck" />
+    <ImageView
+        android:id="@+id/splash"
+        android:layout_width="match_parent"
+        android:layout_height="397dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/principal" />
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="25dp" />
-
-        <Button
-            android:id="@+id/btnsub"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:backgroundTint="#7C72D818"
-            android:text="@string/btnsub"
-            android:textColor="#795548"
-            android:textStyle="normal|bold|italic"
-            tools:ignore="TextContrastCheck" />
-
-    </LinearLayout>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

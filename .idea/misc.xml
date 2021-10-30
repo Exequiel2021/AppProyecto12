@@ -15,9 +15,19 @@
         <entry key="..\:/Users/eaps1/AndroidStudioProjects/Naturist/app/src/main/res/layout/maps.xml" value="0.2526041666666667" />
         <entry key="..\:/Users/eaps1/AndroidStudioProjects/Naturist/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.26875" />
         <entry key="..\:/Users/eaps1/AndroidStudioProjects/Naturist/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.26875" />
+        <entry key="..\:/Users/eaps1/Desktop/Naturist/app/src/main/res/layout/activity_googlemaps.xml" value="0.184375" />
+        <entry key="..\:/Users/eaps1/Desktop/Naturist/app/src/main/res/layout/activity_gps.xml" value="0.25" />
+        <entry key="..\:/Users/eaps1/Desktop/Naturist/app/src/main/res/layout/activity_login.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/eaps1/Desktop/Naturist/app/src/main/res/layout/activity_main.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/eaps1/Desktop/Naturist/app/src/main/res/layout/activity_mapa.xml" value="0.1265625" />
+        <entry key="..\:/Users/eaps1/Desktop/Naturist/app/src/main/res/layout/activity_maps.xml" value="0.234375" />
+        <entry key="..\:/Users/eaps1/Desktop/Naturist/app/src/main/res/layout/activity_menu.xml" value="0.176" />
+        <entry key="..\:/Users/eaps1/Desktop/Naturist/app/src/main/res/layout/escenaprincipal.xml" value="0.25" />
+        <entry key="..\:/Users/eaps1/Desktop/Naturist/app/src/main/res/layout/login.xml" value="0.25" />
       </map>
     </option>
   </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
