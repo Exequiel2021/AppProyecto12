@@ -27,6 +27,8 @@ public class activity_GPS extends AppCompatActivity {
         )
         {}else{
             locationStart();
+
+
         }
 
     }
