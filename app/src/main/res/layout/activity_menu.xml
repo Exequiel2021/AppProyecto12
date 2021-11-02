@@ -8,77 +8,79 @@
     android:visibility="visible"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="404dp"
-        android:layout_height="630dp"
-        android:gravity="center"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <ImageView
+        android:id="@+id/imagprin"
+        android:layout_width="370dp"
+        android:layout_height="321dp"
+        android:contentDescription="@string/principalvista"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/btnsub"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintVertical_bias="0.197"
+        app:srcCompat="@drawable/principal"
+        tools:ignore="ImageContrastCheck" />
 
-        <ImageView
-            android:id="@+id/imagprin"
-            android:layout_width="370dp"
-            android:layout_height="321dp"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="60dp"
-            android:layout_marginEnd="32dp"
-            android:contentDescription="@string/principalvista"
-            android:scrollbarAlwaysDrawHorizontalTrack="true"
-            android:visibility="visible"
-            app:srcCompat="@drawable/principal"
-            tools:ignore="ImageContrastCheck" />
+    <Button
+        android:id="@+id/btncap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:backgroundTint="#7C72D818"
+        android:foregroundTint="#A58686"
+        android:text="@string/btncap"
+        android:textColor="#795548"
+        android:textSize="14sp"
+        android:textStyle="normal|bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagprin"
+        tools:ignore="TextContrastCheck" />
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="43dp" />
+    <Button
+        android:id="@+id/btndes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#7C72D818"
+        android:text="@string/btndes"
+        android:textColor="#795548"
+        android:textStyle="normal|bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/btnsub"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btncap"
+        tools:ignore="TextContrastCheck" />
 
-        <Button
-            android:id="@+id/btncap"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:backgroundTint="#7C72D818"
-            android:foregroundTint="#A58686"
-            android:text="@string/btncap"
-            android:textColor="#795548"
-            android:textSize="14sp"
-            android:textStyle="normal|bold|italic"
-            tools:ignore="TextContrastCheck" />
+    <Button
+        android:id="@+id/btnsub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="96dp"
+        android:backgroundTint="#7C72D818"
+        android:text="@string/btnsub"
+        android:textColor="#795548"
+        android:textStyle="normal|bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck" />
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="25dp" />
-
-        <Button
-            android:id="@+id/btndes"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:backgroundTint="#7C72D818"
-            android:onClick="descubrir"
-            android:text="@string/btndes"
-            android:textColor="#795548"
-            android:textStyle="normal|bold|italic"
-            tools:ignore="TextContrastCheck" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="25dp" />
-
-        <Button
-            android:id="@+id/btnsub"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:backgroundTint="#7C72D818"
-            android:text="@string/btnsub"
-            android:textColor="#795548"
-            android:textStyle="normal|bold|italic"
-            tools:ignore="TextContrastCheck" />
-
-    </LinearLayout>
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="40dp"
+        android:contentDescription="@string/iconoubi"
+        android:src="@android:drawable/ic_menu_mylocation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.894"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

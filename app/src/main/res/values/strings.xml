@@ -1,33 +1,32 @@
 <resources>
     <string name="app_name">Naturist</string>
-
+    }
     <string name="btncap">Capturar Lugar</string>
     <string name="btndes">Descubrir Lugares</string>
     <string name="btnsub">Subir Imagen</string>
+
     <string name="campousuario">Nombre de usuario</string>
     <string name="principallog">imagen login</string>
     <string name="correo_electronico">Correo Electronico</string>
-    <string name="usuario">Usuario</string>
-    <string name="contras">Contraseña</string>
     <string name="iniciar_sesion">Iniciar Sesion</string>
+
     <string name="acceder">Acceder</string>
     <string name="registrarme">Registrarme</string>
     <string name="recordarme">Recordarme</string>
+
     <string name="principalvista">principalvista</string>
     <string name="imagtitulo">imagtitulo</string>
     <string name="tituloini">Naturist</string>
-    <string name="title_activity_login">LoginActivity</string>
-    <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password</string>
-    <string name="action_sign_in">Sign in or register</string>
-    <string name="action_sign_in_short">Sign in</string>
-    <string name="welcome">"Welcome !"</string>
-    <string name="invalid_username">Not a valid username</string>
-    <string name="invalid_password">Password must be >5 characters</string>
-    <string name="login_failed">"Login failed"</string>
-    <string name="title_activity_mapita">MapsActivity</string>
+
     <string name="latitud">Latitud</string>
     <string name="longitud">Longitud</string>
     <string name="direccion">Direccion</string>
+    <string name="tu_estas_aqui">Tu Estas Aqui…</string>
+    <string name="iconoubi">TODO</string>
+    <string name="iconomini">TODO</string>
+    <string name="giroscopio">Giroscopio</string>
+    <string name="x">X</string>
+    <string name="y">Y</string>
+    <string name="z">Z</string>
 
 </resources>
