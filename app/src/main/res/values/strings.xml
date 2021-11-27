@@ -7,12 +7,14 @@
 
     <string name="campousuario">Nombre de usuario</string>
     <string name="principallog">imagen login</string>
+    <string name="contraseña">Contraseña</string>
+
     <string name="correo_electronico">Correo Electronico</string>
     <string name="iniciar_sesion">Iniciar Sesion</string>
 
     <string name="acceder">Acceder</string>
-    <string name="registrarme">Registrarme</string>
     <string name="recordarme">Recordarme</string>
+    <string name="registrarse">Registrarse</string>
 
     <string name="principalvista">principalvista</string>
     <string name="imagtitulo">imagtitulo</string>
@@ -28,5 +30,8 @@
     <string name="x">X</string>
     <string name="y">Y</string>
     <string name="z">Z</string>
+    <string name="splash2">TODO</string>
+    <string name="maps">mapa</string>
+    <string name="Ingresar">ingresar</string>
 
 </resources>

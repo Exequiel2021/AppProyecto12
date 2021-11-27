@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "803338340016",
+    "firebase_url": "https://pruebafirebase07-default-rtdb.firebaseio.com",
+    "project_id": "pruebafirebase07",
+    "storage_bucket": "pruebafirebase07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803338340016:android:34a715d2a569a4c54d9d75",
+        "android_client_info": {
+          "package_name": "com.example.naturist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "803338340016-0pvu1h8pvu9m8ghmng54vh2uadg9lrp2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.naturist",
+            "certificate_hash": "d7913ea09101a27961e322997e8c046de59fe968"
+          }
+        },
+        {
+          "client_id": "803338340016-d8i9005sipmvsfhhvu5r1o8jb3lmt285.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXkMoihePGATAuLBY0CcPMhnK-rSKUM4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "803338340016-d8i9005sipmvsfhhvu5r1o8jb3lmt285.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

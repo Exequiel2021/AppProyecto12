@@ -34,7 +34,7 @@
         android:text="@string/iniciar_sesion"
         android:textColor="#000000"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName2"
+        app:layout_constraintBottom_toTopOf="@+id/edtcorreoelectronico"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -42,7 +42,8 @@
         app:layout_constraintVertical_bias="0.396" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/edtcorreoelectronico"
+        style="w"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -54,11 +55,11 @@
         android:gravity="start"
         android:hint="@string/correo_electronico"
         android:importantForAutofill="no"
-        android:inputType="textPersonName"
-        android:text="@string/usuario"
+        android:inputType="textWebEmailAddress|textPersonName"
+        android:text="@string/correo_electronico"
         android:textColorHint="#88FFFFFF"
         android:textStyle="normal|italic"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName3"
+        app:layout_constraintBottom_toTopOf="@+id/edtcontraseña"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -66,34 +67,36 @@
         tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/edtcontraseña"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="32dp"
         android:backgroundTint="#000000"
         android:ems="10"
         android:gravity="start"
+        android:hint="@string/contraseña"
         android:importantForAutofill="no"
-        android:inputType="textPersonName"
-        android:text="@string/contras"
+        android:inputType="none"
+        android:text="@string/contraseña"
         android:textStyle="normal|italic"
+        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2"
+        app:layout_constraintTop_toBottomOf="@+id/edtcorreoelectronico"
         tools:ignore="TouchTargetSizeCheck" />
 
+
     <Button
-        android:id="@+id/btnaccerder"
+        android:id="@+id/btningresar"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginStart="110dp"
         android:layout_marginEnd="110dp"
         android:backgroundTint="#7C72D818"
-        android:onClick="acceder"
-        android:text="@string/acceder"
+        android:text="@string/Ingresar"
         android:textColor="#22201F"
         android:textSize="16sp"
         android:textStyle="normal|italic"
@@ -101,42 +104,29 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3"
-        app:layout_constraintVertical_bias="0.262"
-        tools:ignore="TouchTargetSizeCheck" />
+        app:layout_constraintTop_toBottomOf="@+id/edtcontraseña"
+        app:layout_constraintVertical_bias="0.131"
+        tools:ignore="TouchTargetSizeCheck,DuplicateClickableBoundsCheck" />
 
     <Button
-        android:id="@+id/btnregis"
+        android:id="@+id/bntregistrarse"
         android:layout_width="match_parent"
-        android:layout_height="35dp"
-        android:layout_marginStart="80dp"
-        android:layout_marginEnd="80dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginEnd="110dp"
         android:backgroundTint="#7C72D818"
-        android:text="@string/registrarme"
+        android:onClick="Registrar"
+        android:text="@string/registrarse"
         android:textColor="#22201F"
-        android:textSize="14sp"
+        android:textSize="16sp"
+        android:textStyle="normal|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3"
-        app:layout_constraintVertical_bias="0.493"
-        tools:ignore="TouchTargetSizeCheck" />
+        app:layout_constraintTop_toBottomOf="@+id/edtcontraseña"
+        app:layout_constraintVertical_bias="0.409"
+        tools:ignore="OnClick,TouchTargetSizeCheck" />
 
-
-
-    <CheckBox
-        android:id="@+id/record"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/recordarme"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/btnaccerder"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.142"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3"
-        app:layout_constraintVertical_bias="0.304"
-        tools:ignore="TouchTargetSizeCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -134,9 +134,9 @@ public class activity_GPS extends AppCompatActivity {
                     break;
             }
 
-         //   public void giroscopio (View view){
-            //  Intent giroscopio = new Intent(menu.this,. class);
-               // startActivity(giroscopio);
+            // public void giros (View view){
+             //Intent giros = new Intent(menu.this,giroscopio.class);
+               //startActivity(giros);
 
             }
 
